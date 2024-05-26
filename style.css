@@ -1,0 +1,371 @@
+@font-face {
+    src: url("./BMJUA_ttf.ttf");
+    font-family: Bm;
+}
+
+@font-face {
+    src: url("./SCDream4.otf");
+    font-family: SCD1;
+}
+
+@font-face {
+    src: url("./SCDream3.otf");
+    font-family: SCD3;
+}
+
+@font-face {
+    src: url("./SCDream2.otf");
+    font-family: SCD2;
+}
+
+@media screen and (min-width: 0px) {
+    body {
+      font-size: 6px;
+    }
+
+    .체험-버튼 {
+        height: 20px;
+        font-size: 2px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    body {
+      font-size: 7px;
+    }
+
+    .체험-버튼 {
+        height: 20px;
+        font-size: 7px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    body {
+      font-size: 10px;
+    }
+
+    .체험-버튼 {
+        height: 20px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body {
+      font-size: 20px;
+    }
+
+    .체험-버튼 {
+        font-size: 14px;
+    }
+}
+
+body {
+    height: 2000px;
+    background-color: rgb(35, 73, 223);
+}
+
+.메뉴들{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(35, 73, 223);
+  text-align: center;
+}
+
+.메뉴{
+  display: inline-block;
+}
+
+.메뉴 a{
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14.5px 16px;
+  text-decoration: none;
+  font-family: SCD1;
+}
+
+.메뉴 span {
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14.5px 16px;
+  text-decoration: none;
+  font-family: SCD1;
+}
+
+.메뉴 a:hover{
+  color: #FFD400;
+  font-weight:normal;
+}
+
+.메뉴-시작하기 {
+    position: relative;
+    left: 0%;
+}
+
+.상단바 {
+ width: 5000px;
+ height: 50px;
+ text-align: center;
+ max-width: 100%;
+ background-position: center;
+ background-size: cover;
+ background-color: rgb(35, 73, 223);
+ z-index: 3;
+ position:fixed; 
+}
+
+.체험 {
+ width: 5000px;
+ height: 60%;
+ text-align: center;
+ max-width: 100%;
+ max-height: 60%;
+ background-repeat: no-repeat;
+}
+
+.Start-title {
+    font-family: SCD1;
+    text-align: center;
+    position: relative;
+    top: -10%;
+    font-size: 35px;
+    color: white;
+}
+
+.체험-버튼 {
+    letter-spacing: 2px;
+    width: 5000px;
+    height: 50%;
+    text-align: center;
+    max-width: 20%;
+    max-height: 40px;
+    overflow:hidden;
+    position: absolute;
+    white-space:nowrap;
+
+    position: relative;
+    top: -5%;
+    inset-inline-start: 0%;
+
+    margin-left: 40%;
+    border-radius: 30px;
+    border: 2px solid white;
+    border: 2px solid rgb(35, 73, 223);
+    color: rgb(35, 73, 223);
+    cursor: pointer;
+
+    font-family: SCD1;
+}
+
+.체험시작하기부가설명 {
+    position: relative;
+    top: -5%;
+    text-align: center;
+    font-family: SCD1;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.K-기업가타이틀 {
+    color: white;
+    width: 5000px;
+    height: 70%;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    top: -10%;
+    font-family: SCD1;
+    background-image: linear-gradient(to bottom, rgb(35, 73, 223)    , lightblue);
+}
+
+.K-기업가타이틀 > .title {
+    color: white;
+    font-size: 30px;
+}
+.K-기업가타이틀 > .title-p {
+    color: white;
+    font-size: 20px;
+}
+
+.개요 {
+    color: white;
+    width: 5000px;
+    height: 70%;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 0%;
+    margin-left: 0%;
+    position: relative;
+    top: -80%;
+    font-family: SCD1;
+}
+
+.개요 > .title {
+    color: white;
+    font-size: 30px;
+}
+.개요 > .title-p {
+    color: white;
+    font-size: 20px;
+}
+
+.Sa {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.나누는선 {
+    border-radius: 30px;
+    height: 1.5px;
+    width: 5000px;
+    background-color:rgb(194, 194, 194);
+    position: relative;
+    max-width: 100%;
+    top: -15%;
+}
+
+.나누는이미지 {
+    position: relative;
+    top: -19.26%;
+    left: 0%;
+}
+
+.나누는선2 {
+    border-radius: 30px;
+    height: 1.5px;
+    width: 5000px;
+    background-color:rgb(194, 194, 194);
+    position: relative;
+    max-width: 100%;
+    top: -1%;
+}
+
+.나누는이미지2 {
+    position: relative;
+    top: -10.4%;
+    right: -71%;
+    z-index: 2;
+}
+
+.나누는선3 {
+    border-radius: 30px;
+    height: 1.5px;
+    width: 5000px;
+    background-color:rgb(194, 194, 194);
+    position: relative;
+    max-width: 100%;
+    top: -70.2%;
+}
+
+.나누는이미지3 {
+    position: relative;
+    top: -80.26%;
+    left: 0%;
+}
+
+.나누는선4 {
+    border-radius: 30px;
+    height: 1.5px;
+    width: 5000px;
+    background-color:rgb(194, 194, 194);
+    position: relative;
+    max-width: 100%;
+    top: -131%;
+}
+
+.나누는이미지4 {
+    position: relative;
+    top: -140.4%;
+    right: -71%;
+    z-index: 2;
+}
+
+.시작하기 {
+    height: 50%;
+    width: 5000px;
+    max-width: 20%;
+    max-height: 40px;
+    background-color: white;
+    border: 2px solid white;
+    border: 2px solid rgb(35, 73, 223);
+    border-radius: 30px;
+    font-family: SCD1;
+    position: relative;
+    margin-left: 40%;
+    top: -25%;
+    color: rgb(35, 73, 223);
+    cursor: pointer;
+}
+
+.화살표 {
+    height: 50%;
+    width: 5000px;
+    max-width: 20%;
+    max-height: 40px;
+    border-radius: 30px;
+    font-family: SCD1;
+    text-align: center;
+    position: relative;
+    margin-left: 40%;
+    top: -27%;
+    color: white;
+    cursor: pointer;
+    font-size: 100px;
+}
+
+.가릴꺼 {
+    background-color: rgb(35, 73, 223);
+    text-decoration-line: none;
+    color: rgb(35, 73, 223);
+}
+
+.노예 {
+    color: white;
+    position: relative;
+    top: -140%;
+    text-align: center;
+    font-family: SCD1;
+}
+
+.조부조 {
+    color: white;
+    text-align:left;
+    font-family: SCD1;
+    position: relative;
+    top: -140%;
+    left: 17%;
+    font-size: 20px;
+}
+
+.조원 {
+    color: white;
+    text-align:left;
+    font-family: SCD1;
+    position: relative;
+    left: 17%;
+    top: -140%;
+    font-size: 18px;
+}
+
+.조원 > .a {
+    font-family: Bm;
+    color: gray;
+}
+
+.문의 {
+    font-family: Bm;
+    color: white;
+    text-align:center;
+    position: relative;
+    top: -140%;
+    font-size: 18px;
+}
+
+.c {
+    color: gray;
+    cursor: pointer;
+}
