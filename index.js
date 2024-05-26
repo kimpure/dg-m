@@ -25,6 +25,11 @@ Anihts.forEach((e , i)=>{
 
 const t = document.querySelector('.c')
 t.addEventListener('click' , ()=>{
-  navigator.clipboard.writeText('parkhteak@naver.com')
-  alert(`이메일이 복사돼었습니다.`)
+  try {
+    navigator.clipboard.writeText('parkhteak@naver.com')
+  } catch (error) {
+    alert(`이메일 복사실패 사유 : ${error}`)
+    return
+  }
+  alert(`이메일복사성공!`)
 })
