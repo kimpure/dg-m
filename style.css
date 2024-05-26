@@ -369,3 +369,34 @@ body {
     color: gray;
     cursor: pointer;
 }
+
+.문의-버튼 {
+    border-radius: 30px;
+    width: 10%;
+    height: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+    display:block;
+    position: relative;
+    left: 45%;
+}
+
+.작성자명 {
+    border-radius: 30px;
+}
+
+.문의내용 {
+    border-radius: 30px;
+}
+
+.선택자 {
+    border-radius: 30px;
+    width: 10%;
+    height: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+    display:block;
+    position: relative;
+    top: -139.97%;
+    left: 45%;
+}
